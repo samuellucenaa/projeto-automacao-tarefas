@@ -5,7 +5,7 @@ import time
 pyautogui.PAUSE = 1
 
 pyautogui.hotkey('win', 's')
-pyautogui.write('opera')
+pyautogui.write('edge')
 pyautogui.press('enter')
 
 # passo 2: login
