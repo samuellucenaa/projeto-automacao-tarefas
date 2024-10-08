@@ -14,7 +14,7 @@ pyautogui.press('enter')
 
 # pausa de 3 segundos pra pagina poder carregar
 time.sleep(3)
-pyautogui.click(x=427, y=409)
+pyautogui.click(x=437, y=362)
 pyautogui.write('samuel@gmail.com')
 pyautogui.press('tab')
 pyautogui.write('123456789')
@@ -36,7 +36,7 @@ for linha in tabela.index:
 
 #index é o n° das linhas, que o python faz automaticamente
     
-    pyautogui.click(x=395, y=295)
+    pyautogui.click(x=435, y=241)
     
     # codigo
     codigo = tabela.loc[linha, 'codigo']
