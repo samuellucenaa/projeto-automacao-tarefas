@@ -63,7 +63,7 @@ for linha in tabela.index:
 
     # custo
     custo = tabela.loc[linha, 'custo']
-    pyautogui.write(str(custo)) Camisa  
+    pyautogui.write(str(custo))  
     pyautogui.press('tab')
 
     # obs
