@@ -29,8 +29,6 @@ print(tabela)
 
 # passo 4: cadastrar produto
 
-linha = 0
-
 # para cada linha da minha tabela
 for linha in tabela.index: 
 
@@ -55,17 +53,17 @@ for linha in tabela.index:
 
     # categoria
     categoria = tabela.loc[linha, 'categoria']
-    pyautogui.write(int(categoria))
+    pyautogui.write(str(categoria))
     pyautogui.press('tab')
 
     # preco unitario
     preco_unitario = tabela.loc[linha, 'preco_unitario']
-    pyautogui.write(float(preco_unitario))
+    pyautogui.write(str(preco_unitario))
     pyautogui.press('tab')
 
     # custo
     custo = tabela.loc[linha, 'custo']
-    pyautogui.write(float(custo))
+    pyautogui.write(str(custo)) Camisa  
     pyautogui.press('tab')
 
     # obs
